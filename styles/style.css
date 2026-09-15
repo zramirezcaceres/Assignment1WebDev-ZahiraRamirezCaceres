@@ -6,6 +6,8 @@ html {
 h1 {
   font-size: 60px;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
 }
 
 p,
@@ -23,12 +25,15 @@ body {
   border: 5px solid black;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
-}
-
 img {
   display: block;
   margin: 0 auto;
+}
+
+svg {
+  background: white;
+}
+
+rect {
+  fill: blue;
 }
